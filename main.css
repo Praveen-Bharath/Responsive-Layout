@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "StickNoBills";
+    src: url(./StickNoBills-Light.ttf) format("truetype");
+  }
+  .row{
+    width: 100%;
+    height: 100%;
+}
+  .colomn1
+  {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      height: 100px;
+      text-align: center;
+  }
+  .first1
+  {
+      background-color:#F05F59;
+      width: 50%;
+      margin: 5px;
+      font-family: "StickNoBills";
+
+  }
+  .image1{
+      background: url('Images/spriteimage.svg') -40px -56px;
+  }
+  .image2
+  {
+    background: url('Images/spriteimage.svg') -274px -56px;
+
+  }
+  .block1{
+    background: url('Images/spriteimage.svg') -421px -53px;
+
+  }
+  .colomn2
+  {
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+      margin: 10px;
+      text-align: center;
+  }
+  .second{
+    width: 100%;
+    background-color: #DA7A5C;
+    font-family: "StickNoBills";
+    transition: width 2s;
+
+  }
+  .second:hover{
+      background-image: url("Images/tringapps1.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+  .colomn3
+  {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      height: 168px;
+      margin: 5px;
+  }
+  .third1{
+      background-color: #E6AC53;
+      width: 100%;
+      margin: 5px;
+      font-family: "StickNoBills";
+      /* background-image:  url('8.png');
+      background-repeat: no-repeat; */
+      text-align: center;
+      transform: skewX(10deg);
+      transition: transform .2s;
+
+
+  }
+  .box1{
+    background: url('Images/spriteimage.svg') -9px -59px;
+  }
+  .third1:hover {
+    transform: scale(1.25); 
+    background-color: #E6559F;
+  }
+  .box2{
+    background: url('Images/spriteimage.svg') -234px -59px;
+  }
+  .box3{
+    background: url('Images/spriteimage.svg') -58px -17px;
+  }
+  .colomn4
+  {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      height: 120px;
+      margin: 5px;
+  }
+  .four1
+  {
+      width: 100%;
+      margin: 5px;
+      font-family: "StickNoBills";
+      background-color: #F09959;
+      transition: 2s;
+  }
+  #four1:hover{
+      background-image: url('Images/Software-Development.jpg');
+      background-size: 100% 100%;
+  }
+  #four2:hover{
+    background-image: url('Images/cloud.jpg');
+    background-size: 100% 100%;
+}
+#four3:hover{
+    background-image: url('Images/UIUX.jpg');
+    background-size: 100% 100%;
+}
+#four4:hover{
+    background-image: url('Images/test.png');
+    background-size: 100% 100%;
+}
+  @media only screen and (max-width: 768px){
+.colomn1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first1
+  {
+      width: 100%;
+  }
+  .colomn2
+  {
+      display: flex;
+      flex-wrap: wrap;
+      height: 175px;
+  }
+  .second{
+    width: 100%;
+  }
+  .colomn3
+  {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .third1{
+      width: 100%;
+  }
+
+  .colomn4
+  {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .four1
+  {
+      width: 48.3%;
+  }
+  }
+  @media only screen and (max-width: 614px){
+    .colomn4
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four1
+    {
+        width: 48%;
+    }
+  }
+  @media only screen and (max-width: 526px){
+    .colomn4
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four1
+    {
+        width: 47%;
+    }
+  }
+  @media only screen and (max-width: 360px){
+    .colomn4
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four1
+    {
+        width: 46%;
+    }
+  }
+  @media only screen and (max-width: 320px)
+{
+    .colomn1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first1
+      {
+          width: 100%;
+      }
+    .colomn2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        height: 87.5px;
+    }
+    .second{
+      width: 100%;
+    }
+    .colomn3
+    {
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+    .third1{
+        width: 100%;
+    }
+
+    .colomn4
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four1
+    {
+        width: 100%;
+    }
+
+  }
