@@ -23,7 +23,6 @@
       width: 50%;
       margin: 5px;
       font-family: "StickNoBills";
-
   }
   .image1{
       background: url('Images/spriteimage.svg') -40px -56px;
@@ -31,11 +30,9 @@
   .image2
   {
     background: url('Images/spriteimage.svg') -274px -56px;
-
   }
   .block1{
     background: url('Images/spriteimage.svg') -421px -53px;
-
   }
   .colomn2
   {
@@ -50,7 +47,6 @@
     background-color: #DA7A5C;
     font-family: "StickNoBills";
     transition: width 2s;
-
   }
   .second:hover{
       background-image: url("Images/tringapps1.jpg");
@@ -70,20 +66,25 @@
       width: 100%;
       margin: 5px;
       font-family: "StickNoBills";
-      /* background-image:  url('8.png');
-      background-repeat: no-repeat; */
       text-align: center;
+      animation: roll 3s ;
+      transform: skewX(7deg);
+      opacity: .8;
+  }
+  @keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    70%
+    {
       transform: skewX(10deg);
-      transition: transform .2s;
-
-
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
   .box1{
     background: url('Images/spriteimage.svg') -9px -59px;
-  }
-  .third1:hover {
-    transform: scale(1.25); 
-    background-color: #E6559F;
   }
   .box2{
     background: url('Images/spriteimage.svg') -234px -59px;
@@ -221,7 +222,6 @@
     .third1{
         width: 100%;
     }
-
     .colomn4
     {
         display: flex;
@@ -231,5 +231,4 @@
     {
         width: 100%;
     }
-
   }
