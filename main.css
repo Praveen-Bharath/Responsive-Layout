@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   @font-face {
-    font-family: "StickNoBills";
+    font-family: StickNoBills;
     src: url(./StickNoBills-Light.ttf) format("truetype");
   }
   .row{
@@ -22,7 +22,7 @@
       background-color:#F05F59;
       width: 50%;
       margin: 5px;
-      font-family: "StickNoBills","sans-serif";
+      font-family: StickNoBills,sans-serif;
   }
   .image1{
       background: url('Images/spriteimage.svg') -40px -56px;
