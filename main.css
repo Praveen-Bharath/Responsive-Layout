@@ -65,7 +65,7 @@
       background-color: #E6AC53;
       width: 100%;
       margin: 5px;
-      font-family: "StickNoBills";
+      font-family: "sans-serif";
       text-align: center;
       animation: roll 3s ;
       transform: skewX(7deg);
@@ -104,7 +104,7 @@
   {
       width: 100%;
       margin: 5px;
-      font-family: "StickNoBills";
+      font-family: "sans-serif";
       background-color: #F09959;
       transition: 2s;
   }
