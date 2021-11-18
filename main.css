@@ -22,7 +22,7 @@
       background-color:#F05F59;
       width: 50%;
       margin: 5px;
-      font-family: "StickNoBills";
+      font-family: "sans-serif";
   }
   .image1{
       background: url('Images/spriteimage.svg') -40px -56px;
@@ -45,7 +45,7 @@
   .second{
     width: 100%;
     background-color: #DA7A5C;
-    font-family: "StickNoBills";
+    font-family: "sans-serif";
     transition: width 2s;
   }
   .second:hover{
